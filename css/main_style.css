@@ -108,8 +108,8 @@ body {
 
 /*start content*/
 .om-header .content{
-    margin-top: 160px;
-    margin-bottom: 135px;
+    margin-top: 140px;
+    margin-bottom: 140px;
 }
 .om-header .content h1{
     font-size: 36px;
@@ -150,6 +150,7 @@ body {
     }
     .om-header .content{
         margin-top: 50px;
+        margin-bottom: 50px;
     }
     .om-header .content h1{
         font-size: 26px;
