@@ -21,6 +21,7 @@ body {
     background-size: cover;
     min-height: 600px;
     color: #ffffff;
+    padding-bottom: 20px;
 }
 
 /* start navbar */
