@@ -218,3 +218,72 @@ body {
     padding-right: 50px;
 }
 /* end om-offer */
+
+/* start om-clients */
+.om-clients {
+    background-image: url("../img/client-header.png");
+    background-size: cover;
+    min-height: 658px;
+    padding: 90px 0;
+}
+.om-clients h2{
+    color: #ffffff;
+}
+.om-clients .nav {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.om-clients .nav-pills .nav-link.active,
+.om-clients .nav-pills .show > .nav-link,
+.om-clients .nav-pills .nav-link:hover{
+    background-color: inherit;
+    opacity: 1;
+}
+.om-clients .nav-pills .nav-link{
+    opacity: 0.25;
+}
+
+.om-clients .carousel-inner {
+    overflow: visible;
+}
+.om-clients .slider-content{
+    background-color: #ffffff;
+    padding: 45px;
+    max-width: 700px;
+    margin: auto;
+    position: relative;
+    z-index: 2000;
+}
+.om-clients .slider-content p{
+    font-size: 14px;
+    font-weight: lighter;
+    color: #787878;
+    margin: 0;
+}
+.om-clients .slider-content .slider-footer {
+    position: absolute;
+    bottom: -95px;
+    z-index: 2010;
+    text-align: center;
+    left: 0;
+    right: 0;
+}
+.om-clients .slider-content .slider-footer h5{
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 12px 0 4px 0;
+}
+.om-clients .slider-content .slider-footer p{
+    font-size: 12px;
+    font-weight: lighter;
+    color: #787878;
+    margin: 0;
+}
+.om-clients .carousel-control-next-icon {
+     background-image: none;
+}
+.om-clients .carousel-control-prev-icon {
+    background-image: none;
+}
+/* end om-clients */
