@@ -27,7 +27,13 @@ body {
 .om-header .bg-light {
     background-color: inherit !important;
 }
+.om-header .navbar-light .navbar-toggler {
+    border-color: #FFCB02;
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: none;
 
+}
 .om-header .navbar-brand {
     font-size: 20px;
     line-height: 0.8;
