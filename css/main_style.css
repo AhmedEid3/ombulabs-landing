@@ -19,7 +19,7 @@ body {
 .om-header{
     background-image: url("../img/header.png");
     background-size: cover;
-    height: 600px;
+    min-height: 600px;
     color: #ffffff;
 }
 
@@ -32,7 +32,11 @@ body {
 }
 .navbar-light .navbar-toggler-icon {
     background-image: none;
-
+}
+.navbar-light .navbar-toggler-icon .fas{
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFCB02;
 }
 .om-header .navbar-brand {
     font-size: 20px;
@@ -71,6 +75,7 @@ body {
 .navbar-light .navbar-nav .nav-link {
     padding: 2rem 0.75rem;
     font-size: 11px;
+    text-transform: uppercase;
 }
 .om-header .navbar-light .contact-us{
     padding: 10px 18px;
@@ -84,6 +89,20 @@ body {
 .om-header .navbar-light .contact-us:hover {
     color: #ffffff;
     border: 1px solid #ffffff;
+}
+@media (max-width: 991.98px) {
+    .om-header .navbar-light {
+        padding-top: 2rem;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        padding: 0.75rem;
+        text-align: center;
+    }
+    .om-header .navbar-light .contact-us{
+        max-width: 105px;
+        margin: auto;
+    }
+
 }
 /* end navbar */
 
