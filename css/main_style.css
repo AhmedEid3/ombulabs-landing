@@ -12,6 +12,38 @@ body {
     font-family: 'Lato', sans-serif;
     min-height: 4000px;
 }
+.om h2 {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+}
+.om h2:after{
+    content: "";
+    width: 65px;
+    display: block;
+    height: 6px;
+    margin: auto;
+    margin-top: 17px;
+    background-color: #FFCB02;
+}
+
+.om-list {
+    padding-bottom: 35px;
+}
+.om-list h3{
+    font-size: 16px;
+    font-weight: bold;
+    color: #292929;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.om-list p{
+    font-size: 14px;
+    font-weight: lighter;
+    color: #787878;
+    margin: 0;
+}
 /* end shared style*/
 
 
@@ -167,5 +199,22 @@ body {
     }
 }
 /*end content*/
-
 /* end om-header */
+
+/* start om-offer */
+.om-offer {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.om-offer p.offer-content {
+    margin-top: 30px;
+    margin-bottom: 150px;
+    font-size: 18px;
+    font-weight: lighter;
+    line-height: 25px;
+    text-align: center;
+    color: #787878;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+/* end om-offer */
