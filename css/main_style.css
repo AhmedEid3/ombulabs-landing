@@ -134,6 +134,7 @@ body {
 .om-header .content .contactus .btn:focus{
      color: #F8087C;
      background-color: #ffffff;
+    border-color: #F8087C;
  }
 .om-header .content .jop-page{
     margin-top: 35px;
