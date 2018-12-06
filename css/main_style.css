@@ -1,3 +1,23 @@
-h1 {
-    color: #f00;
+/*
+Name theme: ombulabs
+Created by: Ahmed Eid
+Date: 6/12/2018
+*/
+
+/* start shared style*/
+
+body {
+    font-family: 'Lato', sans-serif;
+    min-height: 4000px;
 }
+
+/* end shared style*/
+
+
+/* start header */
+
+.om-header{
+
+}
+
+/* end header */
