@@ -1,23 +1,26 @@
 /*
-Name theme: ombulabs
-Created by: Ahmed Eid
+Theme Name: ombulabs;
+Theme Coder: Ahmed Eid;
+primary Color: #FFCB02;
+Secondary Color: #F8087C;
+Text-color: #FFCB02;
 Date: 6/12/2018
 */
 
 /* start shared style*/
-
 body {
     font-family: 'Lato', sans-serif;
     min-height: 4000px;
 }
-
 /* end shared style*/
 
 
 /* start header */
 
 .om-header{
-
+    background-image: url("../img/header.png");
+    background-size: cover;
+    height: 600px;
 }
 
 /* end header */
