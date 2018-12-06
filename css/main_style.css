@@ -118,9 +118,10 @@ body {
     margin-left: 20px;
     color: #FFCB02;
 }
-.om-header .navbar-light .contact-us:hover {
+.om-header .navbar-light .contact-us:hover,
+.om-header .navbar-light .contact-us:focus {
     color: #ffffff;
-    border: 1px solid #ffffff;
+    background-color: #FFCB02;
 }
 @media (max-width: 991.98px) {
     .om-header .navbar-light {
@@ -206,7 +207,8 @@ body {
     padding-top: 90px;
     padding-bottom: 90px;
 }
-.om-offer p.offer-content {
+.om-offer .offer-content {
+    margin: auto;
     margin-top: 30px;
     margin-bottom: 150px;
     font-size: 18px;
@@ -214,8 +216,7 @@ body {
     line-height: 25px;
     text-align: center;
     color: #787878;
-    padding-left: 50px;
-    padding-right: 50px;
+    max-width: 700px;
 }
 /* end om-offer */
 
@@ -224,7 +225,12 @@ body {
     background-image: url("../img/client-header.png");
     background-size: cover;
     min-height: 658px;
-    padding: 90px 0;
+    padding: 90px 0 100px 0;
+}
+@media (max-width: 768.98px) {
+    .om-clients {
+        padding: 30px 0 130px 0;
+    }
 }
 .om-clients h2{
     color: #ffffff;
@@ -287,3 +293,60 @@ body {
     background-image: none;
 }
 /* end om-clients */
+
+/* start om-products */
+.om-products{
+    padding: 90px 0 70px;
+    background-color: #F6F6F6;
+}
+.om-products .content-product {
+    font-size: 18px;
+    font-weight: lighter;
+    color: #787878;
+    text-align: center;
+    max-width: 700px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 45px;
+}
+.om-products .card{
+    min-height: 360px;
+    margin-bottom: 20px;
+}
+.om-products .card img {
+    margin: 35px auto 25px;
+}
+.om-products .card .card-title{
+    font-size: 16px;
+    font-weight: bold;
+    color: #292929;
+    text-align: center;
+    margin: 0;
+}
+.om-products .card .card-text{
+    font-size: 14px;
+    font-weight: lighter;
+    color: #787878;
+    text-align: left;
+    margin-top: 25px;
+}
+.om-products .card-body .btn{
+     padding: 8px 20px;
+     border: 1px solid #FFCB02;
+     border-radius: 18px;
+     text-align: center;
+     color: #FFCB02;
+     font-size: 11px;
+     position: absolute;
+     bottom: 25px;
+     left: 0;
+     right: 0;
+     max-width: 105px;
+     margin: auto;
+ }
+.om-products .card-body .btn:hover,
+.om-products .card-body .btn:focus{
+    color: #ffffff;
+    background-color: #FFCB02;
+}
+/* end om-products */
