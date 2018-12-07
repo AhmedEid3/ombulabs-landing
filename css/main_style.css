@@ -350,3 +350,17 @@ body {
     background-color: #FFCB02;
 }
 /* end om-products */
+
+/* start om-lean */
+.om-lean{
+    padding: 90px 0;
+}
+.om-lean .om-list{
+    margin-top: 45px;
+    margin-bottom: 75px;
+}
+.om-lean .om-list p {
+    max-width: 250px;
+    margin: auto;
+}
+/* end om-lean */
