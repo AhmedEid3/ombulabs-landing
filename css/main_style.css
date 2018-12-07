@@ -357,10 +357,17 @@ body {
 }
 .om-lean .om-list{
     margin-top: 45px;
-    margin-bottom: 75px;
 }
 .om-lean .om-list p {
     max-width: 250px;
     margin: auto;
+}
+.om-lean .work-it{
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    color: #FFCB02;
+    margin-top: 75px;
+    margin-bottom: 25px;
 }
 /* end om-lean */
