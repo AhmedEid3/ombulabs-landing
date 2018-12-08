@@ -347,6 +347,12 @@ body {
     min-height: 360px;
     margin-bottom: 20px;
 }
+@media (max-width: 575.98px) {
+    .om-products .card{
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+}
 .om-products .card img {
     margin: 35px auto 25px;
 }
