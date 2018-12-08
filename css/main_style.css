@@ -410,6 +410,11 @@ body {
     margin-top: 75px;
     margin-bottom: 25px;
 }
+.om-lean .tech-img {
+    margin: auto;
+    margin-bottom: 20px;
+    width: inherit
+}
 /* end om-lean */
 
 /* start om-open-source */
