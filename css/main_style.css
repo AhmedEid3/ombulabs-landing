@@ -558,6 +558,10 @@ body {
     font-weight: normal;
     letter-spacing: 1.3px;
 }
+.om-footer .nav {
+    max-width: 700px;
+    margin: auto;
+}
 .om-footer a{
     color: #ffffff;
 }
