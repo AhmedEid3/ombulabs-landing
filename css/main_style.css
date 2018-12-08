@@ -532,3 +532,40 @@ body {
     margin-right: 7px;
 }
 /* end om-follow-us */
+
+/* start footer */
+.om-footer{
+    background-color: #000000;
+    padding: 50px 0 65px 0;
+    text-align: center;
+}
+.om-footer .navbar-brand {
+    font-size: 20px;
+    line-height: 0.8;
+}
+.om-footer .navbar-brand img {
+    vertical-align: top;
+}
+.om-footer .navbar-brand .logo {
+    display: inline-block;
+}
+.om-footer .navbar-brand .logo .title{
+    letter-spacing: 1.5px;
+    font-weight: bold;
+}
+.om-footer .title-logo{
+    font-size: 9px;
+    font-weight: normal;
+    letter-spacing: 1.3px;
+}
+.om-footer a{
+    color: #ffffff;
+}
+.om-footer .navbar-brand:hover,
+.om-footer .navbar-brand:focus,
+.om-footer a:hover,
+.om-footer a:focus{
+    color: #FFCB02;
+}
+
+/* end footer */
