@@ -436,6 +436,12 @@ body {
     min-height: 360px;
     text-align: center;
 }
+@media (max-width:575.98px) {
+    .om-open-source .shadow{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
 .om-open-source .card img {
     margin: 35px auto 25px;
 }
