@@ -579,6 +579,9 @@ body {
     color: #ffffff !important;
     margin-top: 13px;
 }
+.om-follow-us .nav-link {
+    padding: 0.5rem;
+}
 .om-follow-us .nav-link img {
     margin-right: 7px;
 }
