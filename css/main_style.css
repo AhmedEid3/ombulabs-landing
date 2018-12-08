@@ -470,4 +470,45 @@ body {
     /*min-height: 1170px;*/
     padding: 100px;
 }
+.om-team h2{
+    color: #ffffff;
+}
+
+.om-team .card {
+    margin: 60px 0;
+    border: none;
+    background-color: inherit;
+}
+.om-team .card .card-img {
+    width: auto;
+    border-radius: calc(0.25rem - 1px);
+    margin: auto;
+}
+.om-team .card .card-title{
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+
+}
+.om-team .card .card-subtitle{
+    font-size: 12px;
+    font-weight: lighter;
+    color: #FFCB02;
+    text-align: center;
+}
+.om-team .card .card-text{
+    padding: 20px;
+    margin-top: 25px;
+    background-color: #ffffff;
+    color: #787878;
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: lighter;
+    min-height: 160px;
+}
+
+.om-team .card .card-link{
+    text-align: center;
+}
 /* end om-team */
