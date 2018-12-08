@@ -10,7 +10,7 @@ Date: 6/12/2018
 /* start shared style*/
 body {
     font-family: 'Lato', sans-serif;
-    /*min-height: 6000px;*/
+    min-height: 8000px;
 }
 .text-red {
     color: #F8087C;
@@ -444,4 +444,30 @@ body {
     max-width: 660px;
     margin: 45px auto 45px;
 }
+.om-design .btn-slider{
+    max-width: 210px;
+    margin: auto;
+    margin-top: 40px;
+}
+.om-design .btn-slider .btn {
+    margin: 0 15px;
+}
+
+.om-design .btn-slider .btn i {
+    font-size:2.5em;
+    color: #979797;
+}
+.om-design .btn-slider .btn:hover i,
+.om-design .btn-slider .btn:focus i {
+    color: #FFCB02;
+}
 /* end om-design */
+
+/* start om-team */
+.om-team {
+    background-image: url("../img/our_team.png");
+    background-size: cover;
+    /*min-height: 1170px;*/
+    padding: 100px;
+}
+/* end om-team */
