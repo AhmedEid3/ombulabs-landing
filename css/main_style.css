@@ -315,10 +315,10 @@ body {
 }
 @media (max-width: 575.98px) {
     .om-clients .carousel-control-prev {
-        left: -6px
+        left: -5px
     }
     .om-clients .carousel-control-next {
-        right: -6px;
+        right: -5px;
     }
 }
 .om-clients .carousel-control-prev img,
@@ -613,11 +613,13 @@ body {
     letter-spacing: 1.3px;
 }
 .om-footer .nav {
-    max-width: 700px;
+    max-width: 576px;
     margin: auto;
 }
 .om-footer a{
     color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
 }
 .om-footer .navbar-brand:hover,
 .om-footer .navbar-brand:focus,
