@@ -512,3 +512,23 @@ body {
     text-align: center;
 }
 /* end om-team */
+
+/* start om-follow-us */
+.om-follow-us{
+    background-color: #FFCB02;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 24px 0;
+}
+.om-follow-us .nav-item:first-child a{
+    font-size: 26px;
+    margin-top: 0;
+}
+.om-follow-us a{
+    color: #ffffff !important;
+    margin-top: 13px;
+}
+.om-follow-us .nav-link img {
+    margin-right: 7px;
+}
+/* end om-follow-us */
