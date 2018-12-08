@@ -10,7 +10,6 @@ Date: 6/12/2018
 /* start shared style*/
 body {
     font-family: 'Lato', sans-serif;
-    min-height: 8000px;
 }
 .text-red {
     color: #F8087C;
@@ -155,8 +154,12 @@ body {
     color: #979797;
     font-size: 20px;
 }
+.om-header .content .content-header{
+    font-weight: lighter;
+}
 .om-header .content .contactus {
     font-size: 18px;
+    color: #b6b7bb;
 }
 .om-header .content .contactus .btn {
     color: #ffffff;
@@ -176,6 +179,7 @@ body {
     margin-top: 35px;
     font-size: 13px;
     line-height: 12px;
+    color: #b6b7bb;
 }
 .om-header .content .jop-page a{
     color: #FFCB02;
