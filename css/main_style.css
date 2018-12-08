@@ -516,7 +516,7 @@ body {
     background-image: url("../img/our_team.png");
     background-size: cover;
     /*min-height: 1170px;*/
-    padding: 100px;
+    padding: 100px 0;
 }
 .om-team h2{
     color: #ffffff;
@@ -526,6 +526,9 @@ body {
     margin: 60px 0;
     border: none;
     background-color: inherit;
+}
+.om-team .card-body{
+    padding: 1.25rem 0;
 }
 .om-team .card .card-img {
     width: auto;
