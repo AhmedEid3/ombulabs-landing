@@ -596,6 +596,7 @@ body {
 .om-footer .navbar-brand {
     font-size: 20px;
     line-height: 0.8;
+    color: #ffffff;
 }
 .om-footer .navbar-brand img {
     vertical-align: top;
@@ -612,17 +613,14 @@ body {
     font-weight: normal;
     letter-spacing: 1.3px;
 }
-.om-footer .nav {
-    max-width: 576px;
-    margin: auto;
-}
-.om-footer a{
+
+.om-footer nav a{
     color: #ffffff;
     font-size: 12px;
     font-weight: bold;
+    margin: 0 10px;
 }
-.om-footer .navbar-brand:hover,
-.om-footer .navbar-brand:focus,
+
 .om-footer a:hover,
 .om-footer a:focus{
     color: #FFCB02;
