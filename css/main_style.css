@@ -66,6 +66,8 @@ body {
 }
 .navbar-light .navbar-toggler-icon {
     background-image: none;
+    width: inherit;
+    height: inherit;
 }
 .navbar-light .navbar-toggler-icon .fas{
     font-size: 25px;
