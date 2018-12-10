@@ -118,7 +118,7 @@ body {
     border: 1px solid #FFCB02;
     border-radius: 25px;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 25px;
     margin-left: 20px;
     color: #FFCB02;
 }
@@ -533,8 +533,7 @@ body {
     padding: 1.25rem 0;
 }
 .om-team .card .card-img {
-    width: auto;
-    border-radius: calc(0.25rem - 1px);
+    max-width: 82px;
     margin: auto;
 }
 .om-team .card .card-title{
